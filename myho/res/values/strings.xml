@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">H_修改器</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- 左侧菜单 -->
+    <string name="hook">hook</string>
+    <string name="hook_ui">主界面</string>
+    <string name="control_platfrom">控制台</string>
+    <string name="listner_app_operate_file">监听应用文件操作</string>
+    <string name="listner_system_settings">监听系统值设置</string>
+    <string name="hide_packagename">隐藏包名</string>
+    <string name="liu_chun">留存</string>
+    <string name="clear_brower_data">清除浏览器数据</string>
+    <string name="delete_folder">删除指定文件夹</string>
+    <string name="vpn">VPN</string>
+    <string name="silent_install">静默安装</string>
+    <string name="task_manager">进程管理</string>
+    <string name="golbal_change_protect">全局修改白名单</string>
+    <string name="listen_market_down">监听应用市场app下载</string>
+    <string name="modify_wifi_list">修改wifi列表</string>
+    <string name="modify_density">修改密度</string>
+    <string name="modify_global">全局修改</string>
+    <string name="modify_test">测试模式</string>
+    <string name="modify_after_opera_auto_open_app">一键操作后打开应用</string>
+    <string name="off">已关闭</string>
+    <string name="on">已开启</string>
+
+    <!-- 左侧菜单/ -->
+
+
+    <!-- 监听应用操作 -->
+    <string name="select_app">选择监听应用</string>
+    <string name="delete_file">删除\n文件</string>
+    <string name="delete_record">删除\n记录</string>
+    <string name="no_new_data">暂无新的数据</string>
+    <string name="deleting_record">正在删除记录...</string>
+    <string name="delete_record_fail">删除记录失败</string>
+    <string name="recordfile_not_exist">没有记录，无需删除</string>
+    <string name="delete_record_ok">删除记录成功</string>
+    <string name="refresh_record">刷新\n记录</string>
+    <string name="look_record">查看\n记录</string>
+    <string name="look_record2">查看记录</string>
+    <string name="look_system_value_record">查看系统值记录</string>
+    <string name="please_affirm_listen_app">请确认要监听的应用</string>
+    <string name="listen_app">监听的应用:</string>
+    <string name="clear_listen_app">点击取消监听应用</string>
+    <string name="please_affirm_clear_listen_app">请确认取消监听应用</string>
+    <string name="no_need_to_reListen">该应用正在监听，无需再次选择</string>
+
+    <!-- 监听应用操作/ -->
+
+
+    <!-- 消除浏览器 -->
+    <string name="please_select_browser">请选择浏览器</string>
+    <string name="clear_ok">清除成功</string>
+    <string name="clear_fail">清除失败</string>
+    <!-- 消除浏览器 / -->
+
+
+    <!-- vpn -->
+    <string name="click_to_manager">点击管理</string>
+    <string name="vpn_has_connect">VPN已连接</string>
+    <string name="stop_vpn2">停止</string>
+    <string name="start_vpn">Start VPN</string>
+    <string name="stop_vpn">Stop from Notification Bar</string>
+    <string name="vpn_type">类型</string>
+    <string name="vpn_mppe">"PPP 加密 (MPPE)"</string>
+    <string name="vpn_show_options">"显示高级选项"</string>
+    <string name="plz_wait">请稍候...</string>
+    <string name="connect">连接</string>
+    <string name="disconnect">断开连接</string>
+    <string name="connectting">正在连接...</string>
+    <string name="disconnectting">正在断开...</string>
+    <string name="please_input_username">请输入用户名</string>
+    <string name="please_input_code">请输入密码</string>
+    <string name="please_input_service">请输入服务器</string>
+    <!-- vpn / -->
+
+
+    <!-- 进程管理 -->
+    <string name="global_change_protect_task">全局修改保护名单</string>
+    <string name="hide_package_name">隐藏包名</string>
+    <string name="listen_market">监听的应用市场</string>
+    <string name="clear_browser">清除数据的浏览器</string>
+    <string name="clear_task">清理名单</string>
+    <!-- 进程管理 / -->
+
+
+    <!-- 系统值监听 -->
+    <string name="has_no_app_listen">还没有监听的应用</string>
+    <!-- 系统值监听 / -->
+
+
+    <!-- 控制台 -->
+    <string name="oprera_connect_vpn">操作:连接VPN</string>
+    <string name="oprera_disconnect_vpn">操作:断开VPN</string>
+    <string name="oprera_net">操作:网络操作</string>
+    <string name="oprera_reset_system_value">操作:恢复系统值</string>
+    <string name="oprera_delete_silent_install_app">操作:卸载静默安装的APK</string>
+    <string name="oprera_detete_browser_data">操作:清除浏览器数据</string>
+    <string name="oprera_detete_point_folder">操作:删除指定的文件夹</string>
+    <string name="oprera_random_data">操作:随机生成数据</string>
+    <string name="oprera_detete_listen_file">操作:删除监听到的应用文件</string>
+    <string name="oprera_close_app">操作:关闭应用</string>
+    <string name="oprera_clear_app_data">操作:清除应用缓存</string>
+    
+    
+    <string name="going">即将开始</string>
+    <string name="delete_silent_install_app_record_file">删除静默安装记录文件</string>
+    <string name="clear_app_data">清除应用缓存</string>
+    <string name="next_cyclt">进入下一次循环</string>
+    <string name="ci">次</string>
+    <string name="di">第</string>
+    <string name="vpn_connect">连接VPN</string>
+    <string name="vpn_disconnect">断开VPN连接</string>
+    <string name="test_mode_cannot_execute">测试模式不可执行</string>
+    <string name="please_check_net">请检查网络连接</string>
+    <string name="please_set_vpn_infos">请设置VPN连接信息</string>
+    <string name="connect_net">连接网络</string>
+    <string name="disconnect_net">断开网络</string>
+    <string name="connectting_vpn">正在连接VPN</string>
+    <string name="connectting_net">正在连接网络</string>
+    <string name="disconnectting_vpn">正在断开VPN</string>
+    <string name="disconnectting_net">正在断开网络</string>
+    <string name="delete_system_value_record_file">删除系统值记录文件</string>
+    <string name="no_system_value_setting">没有系统值要设置</string>
+    <string name="clear_browser_data">清除浏览器数据:</string>
+    <string name="no_browser_to_clear_data">没有要清除数据的浏览器</string>
+    <string name="update_file_record">更新文件文件记录:</string>
+    <string name="delete_file_record">删除文件记录:</string>
+    <string name="has_not_delete_folder_count">删除失败的文件夹个数：</string>
+    <string name="has_not_delete_file_count">删除失败的文件个数：</string>
+    <string name="has_delete_folder_count">删除的文件夹个数：</string>
+    <string name="has_delete_file_count">删除的文件个数：</string>
+    <string name="need_delete_folder_count">需要删除的文件夹个数：</string>
+    <string name="need_delete_file_count">需要删除的文件个数：</string>
+    <string name="no_file_to_delete">没有文件和文件夹要删除</string>
+    <string name="no_point_delete_folder">没有指定要删除的文件夹</string>
+    <string name="close_app_fail">关闭应用失败</string>
+    <string name="close_app">关闭应用</string>
+    <string name="request_close_app">关闭应用:</string>
+    <string name="request_close_browser">关闭浏览器:</string>
+    <string name="delete_fold">删除文件夹:</string>
+    <string name="get_data">请求数据</string>
+    <string name="save_data">保存数据</string>
+    <string name="liu_cun_data">留存数据</string>
+    <string name="opera_end">操作结束</string>
+    <!-- 控制台 / -->
+
+
+    <!-- 删除文件夹 -->
+    <string name="need_delete_fold">需删除的文件夹</string>
+    <string name="fold">文件夹</string>
+    <string name="add_folder_name">手动输入添加</string>
+    <string name="add">添加</string>
+    <string name="please_input_folder">请输入要添加的文件夹</string>
+    <string name="folder_exist">文件夹已在列表中</string>
+    <string name="add_fail">添加失败</string>
+
+    <!-- 删除文件夹/ -->
+
+    <string name="sofe_no_effect">软件不起作用，请重启手机</string>
+    <string name="no_data_no_save">没有生成数据,无需保存</string>
+    <string name="please_root">请先获取 root 权限</string>
+    <string name="no_root">您还没有获取root权限</string>
+    <string name="params">\n参数:</string>
+    <string name="result">\n结果:</string>
+    <string name="method">方法:</string>
+    <string name="data_type_null">缺省</string>
+    <string name="data_type_mobile">MOBILE</string>
+    <string name="data_type_wifi">WIFI</string>
+    <string name="auto_opera">一键操作</string>
+    <string name="please_select_appp">请选择要监听的应用</string>
+    <string name="start">开始</string>
+    <string name="service">服务器</string>
+    <string name="code">密码</string>
+    <string name="user_name">用户名</string>
+    <string name="type">类型</string>
+    <string name="dns1">DNS</string>
+    <string name="dns2">DNS 2</string>
+    <string name="ming_cheng">名称</string>
+    <string name="app">应用</string>
+    <string name="save">保存</string>
+    <string name="save_ok">保存成功</string>
+    <string name="save_fail">保存失败</string>
+    <string name="select_all">全选</string>
+    <string name="not_select_all">全不选</string>
+    <string name="select_opposite">反选</string>
+    <string name="clear">清除</string>
+    <string name="affirm">确认</string>
+    <string name="cancel">取消</string>
+    <string name="opera_ok">操作成功</string>
+    <string name="opera_fail">操作失败</string>
+    <string name="opera_ok_ln">\n操作成功</string>
+    <string name="opera_fail_ln">\n操作失败</string>
+    <string name="get_fail">获取失败</string>
+    <string name="net_error">网络错误</string>
+    <string name="getting_data">正在获取数据...</string>
+    <string name="no_data">暂无数据</string>
+
+</resources>

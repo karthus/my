@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@id/tv_explain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/yellow02"
+        android:padding="5dp"
+        android:textSize="14sp"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@id/ll_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue02"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <EditText
+            android:id="@id/et_et"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+            android:hint="@string/add_folder_name"
+            android:padding="10dp"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@id/tv_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/btn_selector3"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:text="@string/add"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@id/lv_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gray02"
+        android:gravity="center_vertical"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp" >
+
+        <Button
+            android:id="@+id/btn_protect"
+            style="@style/file_listner_btn_style.task_manager" />
+
+        <Button
+            android:id="@+id/btn_task"
+            style="@style/file_listner_btn_style.task_manager" />
+    </LinearLayout>
+
+</LinearLayout>

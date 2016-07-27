@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="left_str">
+        <item >hook</item>
+        <item >监听应用文件操作</item>
+        <item >监听系统值设置</item>
+        <item >隐藏包名</item>
+        <item >留存功能</item>
+    </string-array>
+    
+        
+      <string-array name="vpn_types" translatable="false">
+        <item>PPTP</item>
+        <item>L2TP/IPSec PSK</item>
+        <item>L2TP/IPSec RSA</item>
+        <item>IPSec Xauth PSK</item>
+        <item>IPSec Xauth RSA</item>
+        <item>IPSec Hybrid RSA</item>
+    </string-array>
+      <string-array name="dns1" translatable="false">
+        <item>8.8.8.8</item>
+        <item>8.8.4.4</item>
+        <item>208.67.222.222</item>
+        <item>208.67.220.220</item>
+        <item>223.5.5.5</item>
+        <item>180.76.76.76</item>
+    </string-array>
+</resources>

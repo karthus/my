@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="15dp" >
+
+    <EditText
+        android:id="@+id/et_run"
+        android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+        android:hint="命令" 
+        android:visibility="gone"/>
+
+    <LinearLayout
+        style="@style/ll_type01"
+        android:visibility="gone" >
+
+        <TextView
+            style="@style/tv_style"
+            android:text="@string/ming_cheng" />
+
+        <EditText
+            android:id="@+id/et_name"
+            style="@style/et_style"
+            android:hint="@string/ming_cheng" />
+    </LinearLayout>
+
+    <ImageView
+        style="@style/iv_style"
+        android:visibility="gone" />
+
+    <LinearLayout
+        style="@style/ll_type01"
+        android:visibility="gone" >
+
+        <TextView
+            style="@style/vpn_label"
+            android:text="@string/type" />
+
+        <Spinner
+            android:id="@+id/sn_type"
+            style="@style/vpn_value"
+            android:entries="@array/vpn_types"
+            android:prompt="@string/vpn_type" />
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/mppe"
+        style="@style/vpn_value"
+        android:singleLine="false"
+        android:text="@string/vpn_mppe"
+        android:visibility="gone" />
+
+    <LinearLayout style="@style/ll_type01" >
+
+        <TextView
+            style="@style/tv_style"
+            android:text="@string/user_name" />
+
+        <EditText
+            android:id="@+id/et_username"
+            style="@style/et_style"
+            android:hint="@string/user_name" />
+    </LinearLayout>
+
+    <ImageView style="@style/iv_style" />
+
+    <LinearLayout style="@style/ll_type01" >
+
+        <TextView
+            style="@style/tv_style"
+            android:text="@string/code" />
+
+        <EditText
+            android:id="@+id/et_password"
+            style="@style/et_style"
+            android:hint="@string/code"
+            android:password="true" />
+    </LinearLayout>
+
+    <ImageView style="@style/iv_style" />
+
+    <LinearLayout style="@style/ll_type01" >
+
+        <TextView
+            style="@style/tv_style"
+            android:text="@string/service" />
+
+        <EditText
+            android:id="@+id/et_server"
+            style="@style/et_style"
+            android:hint="@string/service" />
+    </LinearLayout>
+
+    <ImageView style="@style/iv_style" />
+
+    <LinearLayout
+        style="@style/ll_type01"
+        android:layout_marginTop="5dp" >
+
+        <TextView
+            style="@style/vpn_label"
+            android:text="@string/dns1" />
+
+        <Spinner
+            android:id="@id/sn_dns1"
+            style="@style/vpn_value"
+            android:background="@android:color/transparent"
+            android:entries="@array/dns1"
+            android:padding="10dp"
+            android:prompt="@string/vpn_type" />
+    </LinearLayout>
+
+    <Button
+        android:id="@id/btn_connect"
+        style="@style/btn_style4" />
+
+    <Button
+        android:id="@id/btn_save"
+        style="@style/btn_style4"
+        android:text="@string/save" />
+
+    <Button
+        android:id="@+id/btn_test"
+        style="@style/btn_style4"
+        android:text="测试" 
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/btn_on"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="test01"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btn_off"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="test02"
+        android:visibility="gone" />
+
+</LinearLayout>

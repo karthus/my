@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="@color/gray02"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="7dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="7dp" >
+
+        <Button
+            android:id="@id/btn_not_select_all"
+            style="@style/file_listner_btn_style"
+            android:text="@string/not_select_all" />
+
+        <Button
+            android:id="@id/btn_save"
+            style="@style/file_listner_btn_style"
+            android:text="@string/save" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@id/lv_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+
+</LinearLayout>

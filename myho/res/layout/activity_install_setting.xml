@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:padding="5dp"
+        android:background="#ffffff"
+        >
+        <TextView 
+            android:id="@+id/tv_install_tip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="静默安装已关闭"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            />
+         <ToggleButton
+            android:layout_alignParentRight="true" 
+            android:id="@+id/tb_install"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:button="@drawable/togglebtn_bg"
+            android:textOff=""
+            android:textOn=""
+            /> 
+            
+    </RelativeLayout>
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/showuninstall"
+        >
+    
+    <LinearLayout 
+        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        >
+         <TextView 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="线程扫描间隔"/>
+        <NumberPicker
+                android:id="@+id/np_ins_minute"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                
+                />
+        <TextView 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="分"/>
+        <NumberPicker
+                android:id="@+id/np_ins_second"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+        <TextView 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="秒"/>
+    </LinearLayout>
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:padding="5dp"
+        android:background="#ffffff"
+        >
+        <TextView 
+            android:id="@+id/tv_open_tip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="静默安装已关闭"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            
+            />
+         <ToggleButton
+            android:layout_alignParentRight="true" 
+            android:id="@+id/tb_open"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:button="@drawable/togglebtn_bg"
+            android:textOff=""
+            android:textOn=""
+            /> 
+            
+    </RelativeLayout>
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@android:color/darker_gray"/>
+    
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:padding="5dp"
+        android:background="#ffffff"
+        >
+        <TextView 
+            android:id="@+id/tv_uninstall_tip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="打开app功能（关闭）"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            
+            />
+         <ToggleButton
+            android:layout_alignParentRight="true" 
+            android:id="@+id/tb_uninstall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:button="@drawable/togglebtn_bg"
+            android:textOff=""
+            android:textOn=""
+            /> 
+            
+    </RelativeLayout>
+    <LinearLayout 
+        android:id="@+id/uninstall_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        >
+         <TextView 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="多久后卸载"/>
+        <NumberPicker
+                android:id="@+id/np_uns_minute"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+        <TextView 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="分"/>
+        <NumberPicker
+                android:id="@+id/np_uns_second"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+        <TextView 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="秒"/>
+    </LinearLayout>
+    </LinearLayout>
+    
+    
+    
+
+</LinearLayout>

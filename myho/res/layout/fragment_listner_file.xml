@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue02"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:gravity="center_vertical"
+            android:text="@string/listen_app"
+            android:textSize="14sp" />
+
+        <FrameLayout
+            android:id="@id/fl_frame"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:background="@color/gray02"
+        android:paddingBottom="7dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="7dp" >
+
+        <Button
+            android:id="@id/btn_select_app"
+            style="@style/file_listner_btn_style"
+            android:text="@string/select_app"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@id/btn_delete_file"
+            style="@style/file_listner_btn_style"
+            android:text="@string/delete_file" />
+
+        <Button
+            android:id="@id/btn_delete_record"
+            style="@style/file_listner_btn_style"
+            android:text="@string/delete_record" />
+
+        <Button
+            android:id="@id/btn_refresh"
+            style="@style/file_listner_btn_style"
+              android:text="@string/look_record" />
+
+        <ToggleButton
+            android:id="@id/cb_open_record"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textOff="@string/off"
+            android:textOn="@string/on"
+            android:textSize="14sp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@id/lv_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+
+</LinearLayout>
